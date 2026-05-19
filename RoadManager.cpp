@@ -16,8 +16,7 @@ RoadManager::RoadManager(std::string road_name)
 
 void RoadManager::addLimit(int limit)
 {
-	if (limit <= 0)
-	{
+	if (limit <= 0) {
 		std::cerr << "Limit value isnt proper, Exiting..\n";
 		return;
 	}
@@ -32,8 +31,7 @@ int RoadManager::getLimit(int index) const
 
 void RoadManager::setLimit(int index, int new_limit)
 {
-	if (new_limit <= 0)
-	{
+	if (new_limit <= 0) {
 		std::cerr << "Limit value isnt proper, Exiting..\n";
 		return;
 	}

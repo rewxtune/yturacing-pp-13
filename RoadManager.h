@@ -20,6 +20,6 @@ public:
 	void printRoadInfo();
 
 private:
-	std::string m_road_name;
-	std::vector<int> m_speed_limits;
+	std::string				m_road_name;
+	std::vector<int>	m_speed_limits;
 };
